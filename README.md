@@ -48,7 +48,7 @@ Multi-stage endpoint compromise investigation involving Windows Security telemet
 
 AWS cloud account compromise investigation covering **cloud reconnaissance, IAM enumeration, persistence, privilege escalation, EC2 deployment, S3 data access, malicious activity, and CloudTrail tampering**. The investigation includes CloudTrail analysis, attack-chain reconstruction, IOC identification, evidence review, and **MITRE ATT&CK mapping**.
 
-**[View Investigation 2](./investigations/investigation-2/)**
+[**View Investigation 2**](./investigations/Investigation%202%20%E2%80%94%20Microsoft%20Sentinel%20%2B%20Microsoft%20Defender%20Unified%20Portal%20-%20AWS%20CloudTrail%20Investigation/)
 
 ---
 
@@ -58,7 +58,7 @@ AWS cloud account compromise investigation covering **cloud reconnaissance, IAM 
 
 Live detection investigation using a self-built Azure Windows Server 2022 detection pipeline with **Microsoft Sentinel, Azure Monitor Agent, Windows Security Logs, and Microsoft Defender Unified Portal**. Real external RDP authentication activity generated Windows Security **Event ID 4625** telemetry and triggered a custom detection. The alert and incident were investigated and managed through the Microsoft security operations interface, including assignment, classification, resolution, **MITRE ATT&CK mapping**, and investigation of an automation playbook limitation.
 
-**[View Investigation 3](./investigations/investigation-3/)**
+[**View Investigation 3**](./investigations/Investigation%203%20%E2%80%94%20Microsoft%20Defender%20Unified%20Portal%20-%20Live%20Windows%20RDP%20Brute-Force%20Detection/)
 
 ---
 
@@ -68,7 +68,7 @@ Live detection investigation using a self-built Azure Windows Server 2022 detect
 
 SOC alert-triage investigation involving six ServiceNow incidents representing suspicious and benign security activity. The investigation demonstrates **false-positive identification, benign activity validation, incident disposition, cross-alert correlation, timeline analysis, and escalation to Incident Response / L2**, including correlation between AWS CloudTrail and Windows endpoint activity.
 
-**[View Investigation 4](./investigations/investigation-4/)**
+[**View Investigation 4**](./investigations/Investigation%204%20%E2%80%94%20Triage%20-%20ServiceNow%20Alert%20Correlation/)
 
 ---
 
