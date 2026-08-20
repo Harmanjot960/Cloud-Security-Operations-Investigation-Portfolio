@@ -2,6 +2,8 @@
 
 This repository contains four SOC investigations demonstrating practical security operations workflows across **Microsoft Azure, Microsoft Sentinel, Microsoft Defender Unified Portal, AWS CloudTrail, CrowdStrike, Windows Security Logs, and ServiceNow**. The investigations cover cloud and endpoint telemetry analysis, detection engineering, alert investigation, threat hunting, incident management, cross-environment correlation, **MITRE ATT&CK mapping**, and evidence-based incident reporting.
 
+Investigations 1 and 2 use testing-lab security telemetry ingested into Azure Log Analytics and investigated through Microsoft Sentinel, while Investigation 3 demonstrates a self-built live Windows RDP detection pipeline and Investigation 4 focuses on ServiceNow-based SOC alert triage and incident management.
+
 ---
 
 ## Overview
