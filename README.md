@@ -16,7 +16,7 @@ All investigations include supporting **screenshots**, technical evidence, inves
 
 ---
 
-## Platforms & Technologies
+## Platforms, Tools & Frameworks
 
 [![Microsoft Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4?logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
 [![Microsoft Sentinel](https://img.shields.io/badge/SIEM-Microsoft%20Sentinel-0078D4?logo=microsoft&logoColor=white)](https://azure.microsoft.com/products/microsoft-sentinel)
@@ -25,7 +25,6 @@ All investigations include supporting **screenshots**, technical evidence, inves
 [![CrowdStrike](https://img.shields.io/badge/Endpoint-CrowdStrike-E01E5A?logo=crowdstrike&logoColor=white)](https://www.crowdstrike.com/)
 [![ServiceNow](https://img.shields.io/badge/ITSM-ServiceNow-62D84E?logo=servicenow&logoColor=white)](https://www.servicenow.com/)
 [![KQL](https://img.shields.io/badge/Detection-KQL-0078D4?logo=microsoft&logoColor=white)](https://learn.microsoft.com/kusto/query/)
-[![Threat Hunting](https://img.shields.io/badge/Security-Threat%20Hunting-8A2BE2)](https://attack.mitre.org/)
 [![MITRE ATT&CK](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-FF6F00?logo=mitre&logoColor=white)](https://attack.mitre.org/)
 
 ---
@@ -62,7 +61,7 @@ Live detection investigation using a self-built Azure Windows Server 2022 detect
 
 ---
 
-### Investigation 4 — ServiceNow
+### Investigation 4 — Triage - ServiceNow Alert Correlation
 
 **SOC Alert Triage & Cross-Alert Correlation**
 
@@ -74,23 +73,22 @@ SOC alert-triage investigation involving six ServiceNow incidents representing s
 
 ## Evidence & Documentation
 
-Each investigation contains:
+Each investigation includes:
 
-- **Incident Report**
-- **Screenshots**
+- **Investigation Report**
+- **Supporting Screenshots**
 - **Technical Investigation Evidence**
 - **MITRE ATT&CK Mapping**
 - **Detection / Query Analysis**
 - **Incident Timeline**
 - **IOC Analysis**
 - **Analyst Findings & Disposition**
-
 ---
 
 ## Repository Structure
 
 ```text
-cloud-soc-investigations/
+Cloud-Security-Operations-Investigation-Portfolio/
 │
 ├── README.md
 │
@@ -125,4 +123,4 @@ cloud-soc-investigations/
 
 ## Focus
 
-• SOC Operations • Microsoft Sentinel • Microsoft Defender Unified Portal • AWS CloudTrail • CrowdStrike • Windows Security • ServiceNow • Detection Engineering • Threat Hunting • Incident Investigation • MITRE ATT&CK
+• SOC Operations • Microsoft Sentinel • Microsoft Defender Unified Portal • AWS CloudTrail • CrowdStrike • Windows Security Logs • ServiceNow • Detection Engineering • Threat Hunting • Incident Investigation • MITRE ATT&CK
