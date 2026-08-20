@@ -39,6 +39,7 @@ All investigations include supporting **screenshots**, technical evidence, inves
 Multi-stage endpoint compromise investigation involving Windows Security telemetry and CrowdStrike data. The investigation reconstructed attacker activity across **execution, credential access, persistence, command and control, defense evasion, collection, and impact**, with cross-source correlation, IOC analysis, attack timeline reconstruction, and **MITRE ATT&CK mapping**.
 
 **[View Investigation 1](./investigations/investigation-1/)**
+[**View Investigation 1**](./investigations/Investigation%201%20%E2%80%94%20Microsoft%20Sentinel%20%2B%20Microsoft%20Defender%20Unified%20Portal%20-%20CrowdStrike%20%26%20Windows%20Security%20Logs.md)
 
 ---
 
