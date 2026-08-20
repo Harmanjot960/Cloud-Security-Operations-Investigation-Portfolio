@@ -38,8 +38,7 @@ All investigations include supporting **screenshots**, technical evidence, inves
 
 Multi-stage endpoint compromise investigation involving Windows Security telemetry and CrowdStrike data. The investigation reconstructed attacker activity across **execution, credential access, persistence, command and control, defense evasion, collection, and impact**, with cross-source correlation, IOC analysis, attack timeline reconstruction, and **MITRE ATT&CK mapping**.
 
-**[View Investigation 1](./investigations/investigation-1/)**
-[**View Investigation 1**](./investigations/Investigation%201%20%E2%80%94%20Microsoft%20Sentinel%20%2B%20Microsoft%20Defender%20Unified%20Portal%20-%20CrowdStrike%20%26%20Windows%20Security%20Logs.md)
+[**View Investigation 1**](./investigations/Investigation%201%20%E2%80%94%20Microsoft%20Sentinel%20%2B%20Microsoft%20Defender%20Unified%20Portal%20-%20CrowdStrike%20%26%20Windows%20Security%20Logs/)
 
 ---
 
@@ -97,26 +96,30 @@ cloud-soc-investigations/
 │
 ├── architecture/
 │   ├── investigation-1-2-unified-architecture.md
-│   ├── investigation-4-servicenow-correlation.md
-│   └── investigation-3-live-rdp-detection-architecture.md
+│   ├── investigation-3-live-rdp-detection-architecture.md
+│   └── investigation-4-servicenow-correlation.md
 │
 └── investigations/
     │
-    ├── investigation-1/
+    ├── Investigation 1 — Microsoft Sentinel + Microsoft Defender Unified Portal - CrowdStrike & Windows Security Logs/
     │   ├── screenshots/
     │   └── report/
+    │       └── investigation-1-Microsoft Sentinel + Microsoft Defender Unified Portal - CrowdStrike & Windows Security Logs.md
     │
-    ├── investigation-2/
+    ├── Investigation 2 — Microsoft Sentinel + Microsoft Defender Unified Portal - AWS CloudTrail Investigation/
     │   ├── screenshots/
     │   └── report/
+    │       └── investigation-2-Microsoft Sentinel + Microsoft Defender Unified Portal - AWS CloudTrail Investigation.md
     │
-    ├── investigation-3/
+    ├── Investigation 3 — Microsoft Defender Unified Portal - Live Windows RDP Brute-Force Detection/
     │   ├── screenshots/
     │   └── report/
+    │       └── investigation-3-Microsoft Defender Unified Portal - Live Windows RDP Brute-Force Detection.md
     │
-    └── investigation-4/
+    └── Investigation 4 — Triage - ServiceNow Alert Correlation/
         ├── screenshots/
         └── report/
+            └── investigation-4-Triage - ServiceNow Alert Correlation.md
 ```
 ---
 
