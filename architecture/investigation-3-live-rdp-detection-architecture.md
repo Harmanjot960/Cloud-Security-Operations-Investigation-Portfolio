@@ -38,7 +38,7 @@ External Failed-Logon Threshold
 Sentinel Alert / Incident
   |
   v
-Microsoft Defender Unified Security Operations Interface
+Microsoft Defender Unified Security Operations
   |
   +-----------------------------+
   |                             |
@@ -51,7 +51,7 @@ Authentication Analysis         |
   |                             +--> Manage Incident
   v                             |
 Source IP / Username /          v
-Logon Type / NTLM /         Classification
+Logon Type / NTLM /        Classification
 Failure Codes                    |
   |                             v
   v                        True Positive
@@ -75,3 +75,4 @@ Authentication                   |
                 |
                 v
        Limitation Documented
+```
