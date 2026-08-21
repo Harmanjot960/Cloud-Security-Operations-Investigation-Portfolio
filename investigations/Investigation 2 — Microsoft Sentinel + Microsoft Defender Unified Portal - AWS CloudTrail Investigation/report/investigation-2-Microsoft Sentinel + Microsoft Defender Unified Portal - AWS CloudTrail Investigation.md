@@ -65,7 +65,7 @@ Those behaviors were identified through manual `AWSCloudTrail` hunting.
 
 ### Alert Timing Note
 
-The alert was generated approximately 24 hours after the recorded activity. This timing difference is treated as a characteristic of the training-lab dataset and ingestion/detection workflow rather than as real-time SIEM detection latency.
+The alert was generated approximately 24 hours after the recorded activity. The timing difference is documented as observed in the training-lab dataset and is not interpreted as real-time SIEM detection latency.
 
 ---
 
@@ -595,7 +595,7 @@ The report therefore establishes the correlation without claiming an unobserved 
 | Defense Evasion                    | T1685.002 — Disable or Modify Cloud Log   | `StopLogging` and `DeleteTrail`                                        |
 | Collection                         | T1530 — Data from Cloud Storage           | S3 object retrievals                                                   |
 | Impact                             | T1496 — Resource Hijacking                | Five `p3.16xlarge` instances; possible unauthorized compute use        |
-| Execution                          | EC2 user-data execution                   | Base64 user-data downloading and executing remote shell code           |
+| Execution                          | AWS EC2 user-data execution behavior      | Base64 user-data downloading and executing remote shell code           |
 
 ATT&CK mappings are based on behaviors directly supported by the available CloudTrail evidence. Where the exact ATT&CK technique does not map one-to-one to an AWS API action, the report avoids assigning a more specific technique than the evidence supports.
 
