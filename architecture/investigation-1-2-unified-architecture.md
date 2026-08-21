@@ -1,4 +1,4 @@
-# Diagram 1 — Unified Cloud & Endpoint Investigation Workflow
+# Diagram — Unified Cloud & Endpoint Investigation Workflow
 
                   AWS Cloud Environment
              (Cloud Activity / CloudTrail)
