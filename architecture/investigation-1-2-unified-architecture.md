@@ -1,33 +1,32 @@
 # Diagram — Unified Cloud & Endpoint Investigation Workflow
 
-                  AWS Cloud Environment
-             (Cloud Activity / CloudTrail)
-                         │
-                         ▼
-                AWS Security Telemetry
-                         │
-                         │
-                         ├──────────────────────────────┐
+                          Security Telemetry Sources
+                                        │
+                                        │
+                         ┌──────────────┴──────────────┐
+                         │                             │
+                         ▼                             ▼
+              Windows Endpoint                   AWS Cloud Environment
+              (Endpoint Telemetry)             (Cloud Activity / CloudTrail)
                          │                              │
                          ▼                              ▼
-              Windows Endpoint                 Cloud / Identity Activity
-              (Endpoint Telemetry)             (IAM / EC2 / S3)
+               Security / Endpoint             Cloud / Identity Activity
+                    Events                        (IAM / EC2 / S3)
                          │                              │
-                         ▼                              ▼
-               Security / Endpoint              AWS CloudTrail Logs
-                    Events                             │
                          │                              │
+                         │                              ▼
+                         │                        AWS CloudTrail Logs
                          └──────────────┬───────────────┘
                                         │
                                         ▼
-                          Microsoft Sentinel
-                           (SIEM / Detection)
+                              Microsoft Sentinel
+                              (SIEM / Detection)
                                         │
                                         ▼
                               Security Incidents
                                         │
                                         ▼
-                       Microsoft Defender Unified
+                          Microsoft Defender Unified
                            Security Operations
                                         │
                          ┌──────────────┴──────────────┐
@@ -50,15 +49,14 @@
                          MITRE ATT&CK Mapping
                                         │
                                         ▼
-                         Analyst Assessment /
-                         Incident Disposition
+                         Analyst Assessment / Incident Disposition
 
 
 ## Investigation Coverage
 
 **Investigation 1 — Multi-Stage Endpoint Compromise**
 - Windows Security telemetry
-- Endpoint detection telemetry
+- CrowdStrike endpoint detection telemetry
 - KQL investigation
 - Advanced threat hunting
 - Attack-chain reconstruction
